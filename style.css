@@ -1,0 +1,29 @@
+* {
+  font-family: 'Spectral', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 250px;
+  margin: 20px auto;
+  border: 1px solid #d2d0d0;
+  background-color: #eaf7ff;
+  color: rgba(139, 69, 19, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 25px #d2d0d0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.info {
+  margin: 5px;
+}
+button {
+  width: auto;
+  height: auto;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
